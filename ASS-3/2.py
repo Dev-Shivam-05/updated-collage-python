@@ -1,0 +1,8 @@
+s = str(input("Enter String : "))
+s2 = len(s)
+print("The length of string : ",s2)
+length= int(s2/2)
+print("First Half..")
+print(s[0:length])
+print("Second Half..")
+print(s[length:])
